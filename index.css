@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url("./images/bg-hero-desktop.svg");
+    padding: 20px 50px 20px 50px;
+}
+
+.resize__logo {
+    max-height: 25px;
+}
+
+.first_sct img {
+    float: left;
+}
+
+.first_sct button {
+    width: 160px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.second_sct .left__part {
+    float: left;
+}
+
+.second_sct {
+    width: 100%;
+    height: 100%;
+    margin: 40px 0 0 0;
+}
+
+.second_sct img {
+    float: right;
+    height: 85%;
+    margin-right: 60px;
+}
+
+.second_sct .left__part h1 {
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.left__part {
+    padding-top: 60px;
+}
+
+.second_sct .left__part p {
+    width: 520px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.second_sct .left__part button {
+    margin-top: 8px;
+    border: none;
+    padding: 10px;
+    width: 270px;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+main {
+    padding: 98px 80px 0 80px;
+}
+
+.card {
+    width: 80%;
+    height: 300px;
+    box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 12px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.card img {
+    height: 90%;
+    padding: 30px 20px 0px 70px;
+}
+
+.card h1 {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 20px;
+}
+
+.card p {
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+}
+
+.card .left {}
+
+.space_content {
+    margin: 70px 30px 0 90px;
+}
+
+.spacer {
+    margin: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+}
